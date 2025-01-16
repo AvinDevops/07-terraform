@@ -1,0 +1,11 @@
+variable "ami_id" {
+    default = "ami-09c813fb71547fc4f"
+}
+
+variable "instance_type" {
+    default = "t2.micro"
+}
+
+variable "instances_names" {
+    default = ["db", "backend", "frontend"]
+}
